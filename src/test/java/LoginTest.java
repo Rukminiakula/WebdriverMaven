@@ -1,4 +1,4 @@
-9:56 PM 5/20/2020import org.openqa.selenium.By;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -23,8 +23,12 @@ public class LoginTest {
 		public void doLogin() {
 			
 			driver.get("http://gmail.com");
-			driver.findElement(By.id("identifierId")).sendKeys("rukmini@gmail.com");
 			
+			driver.findElement(By.id("identifierId")).sendKeys("rukmini@gmail.com");
+		
+		/*	#changes made in eclipse
+			#those results in git*/
+		
 			
 		}
 		
